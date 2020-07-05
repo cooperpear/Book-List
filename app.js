@@ -41,8 +41,8 @@ UI.prototype.showAlert = function (message, className) {
 
     //Timeout after 3 seconds
     setTimeout(function () {
-        document.querySelector('.alert').remove;
-    }, 3000);
+        document.querySelector('.alert').remove();
+    }, 2000);
 }
 
 //Clear Fields
